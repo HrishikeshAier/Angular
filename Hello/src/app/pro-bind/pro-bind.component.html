@@ -1,0 +1,38 @@
+<h3>
+    3] Angular : Property Binding
+</h3>
+
+<html>
+<!--Only textbox-->
+  <input type="text">
+  <br><br>
+
+  <!--Text box with attribute-->
+  <input type="text" value="Property-Binding">
+  <br><br>
+  
+  <!--Hardcoded attribute-->
+  <input type="text" id = "1" value="Property-Binding">
+  <br><br>
+  
+  <!-- Text box with attribute and property binding-->
+  <input type="text" [id] = "ID" value="Property-Binding">
+  <br><br>
+  
+  <!-- Property binding as string interpolation-->
+  <!-- String interpolation only works with string attributes-->
+  <input type="text" id = "{{ID}}" value="Property-Binding">
+  <br><br>
+
+  <!--Text box with disabled attribute -->
+  <input type="text" disabled = "true" value="Property-Binding">
+  <br><br>
+
+  <!--Text box with disabled attribute with property binding-->
+  <input type="text" [disabled] = "IsSet" value="Property-Binding">
+  <br><br>
+
+  <!-- using bind- tag we can also set the property-->
+  <input type="text" bind-id = "ID" value="Property-Binding">
+  <br><br>
+  </html>

@@ -8,8 +8,18 @@ import { Component, OnInit } from '@angular/core';
 export class DemoComponent implements OnInit {
 
   constructor() { }
+ 
+  public Technology = 'Angular';
+  public IsSet=true;
+  public MyColor1="Orange";
+  public MyColor2="Brown";
+
 
   ngOnInit() {
+  }
+
+  fun(){
+    return "this is fun call";
   }
 
 }
